@@ -80,7 +80,7 @@ nuclei_seg/
 ├── patch_inference.png          # Sliding-window inference illustration
 ├── pipeline_overview.png        # Full pipeline diagram
 └── requirements.txt             # Python dependencies
-
+```
 
 
 ---
@@ -107,3 +107,4 @@ python evaluate_model.py --dataset-root /path/to/DATASET --output-root ./experim
 
 # Evaluate on the held-out test set
 python test_pipeline.py --dataset-root /path/to/DATASET --output-root ./experiments
+```
