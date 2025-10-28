@@ -70,9 +70,16 @@ nuclei_seg/
 ├── aji_fun.py                   # Aggregated Jaccard Index computation
 ├── macenko.py                   # Stain normalization (Macenko method)
 │
-├── training_pipeline.py         # Train the U-Net model (PyTorch + MONAI)
-├── evaluate_model.py            # Evaluate on training/validation sets
-└── test_pipeline.py             # Final testing on held-out dataset
+├── scripts/
+│   ├── training_pipeline.py     # Train the U-Net model (PyTorch + MONAI)
+│   ├── evaluate_model.py        # Evaluate on training/validation sets
+│   └── test_pipeline.py         # Final testing on held-out dataset
+│
+├── best_metric_model.pth        # Pre-trained U-Net weights
+├── patch_inference.png          # Sliding-window inference illustration
+├── pipeline_overview.png        # Full pipeline diagram
+└── requirements.txt             # Python dependencies
+
 
 ---
 
