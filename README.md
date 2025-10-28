@@ -7,6 +7,7 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-Image_Processing-yellow.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
+> Automated nuclei segmentation pipeline for H&E-stained histopathology slides using U-Net, MONAI, and morphological post-processing.
 ---
 
 ### 🧠 Overview
