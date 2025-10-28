@@ -58,9 +58,10 @@ The segmentation pipeline consists of five main stages:
 
 ### 📁 Project Structure
 
+```text
 nuclei_seg/
 │
-├── init.py
+├── __init__.py
 ├── lettura_set.py               # Load images and .mat annotations
 ├── padding_fun.py               # Mirror padding for patch extraction
 ├── divisione_in_patch.py        # Patchify images and masks
@@ -79,6 +80,7 @@ nuclei_seg/
 ├── patch_inference.png          # Sliding-window inference illustration
 ├── pipeline_overview.png        # Full pipeline diagram
 └── requirements.txt             # Python dependencies
+
 
 
 ---
